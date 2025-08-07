@@ -1,8 +1,21 @@
-#main
+#container
 {
     display: flex;
-    #logo
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    background-color: bisque;
+    border: 5px solid brown;
+    border-radius: 1px;
+    font-size: 20px;
+
+    #links
     {
-        
+        font-size: 15px;
+        flex-grow: 1;
+        display: flex;
+        gap: 20px;
+        justify-content: right;
+        align-items: center;
+        text-decoration: underline;
     }
 }
